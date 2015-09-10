@@ -8,6 +8,7 @@ public class Main {
 	public static void main(String[] args) throws InterruptedException {
 		// modificare din eclipse
 		int counter = 0;
+		// modificare non-conflictuala
 		List<MyObject> list = new ArrayList<>();
 		if (args == null) {
 			while (true) {
