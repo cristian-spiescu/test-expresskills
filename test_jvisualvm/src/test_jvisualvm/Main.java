@@ -6,6 +6,7 @@ import java.util.List;
 public class Main {
 
 	public static void main(String[] args) throws InterruptedException {
+		// inca un conflict E
 		// modificare din eclipse
 		int counter = 0;
 		// modificare non-conflictuala
