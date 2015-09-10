@@ -13,6 +13,7 @@ public class Main {
 			System.out.println(counter);
 			Thread.sleep(100);
 		}
+		// editare din github
 
 	}
 
