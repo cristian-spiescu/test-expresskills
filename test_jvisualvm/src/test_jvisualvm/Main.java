@@ -7,6 +7,7 @@ public class Main {
 
 	public static void main(String[] args) throws InterruptedException {
 		int counter = 0;
+		// modificare non-conflictuala
 		List<MyObject> list = new ArrayList<>();
 		while (true) {
 			list.add(new MyObject(counter++));
