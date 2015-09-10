@@ -11,6 +11,7 @@ public class Main {
 		while (true) {
 			list.add(new MyObject(counter++));
 			System.out.println(counter);
+			// aici thread-ul doarme
 			Thread.sleep(100);
 		}
 		// editare din github
