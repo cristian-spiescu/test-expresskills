@@ -6,6 +6,7 @@ import java.util.List;
 public class Main {
 
 	public static void main(String[] args) throws InterruptedException {
+		// inca un conflict din GitHub
 		int counter = 0;
 		// modificare non-conflictuala
 		List<MyObject> list = new ArrayList<>();
