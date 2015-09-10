@@ -1,6 +1,7 @@
 package test_jvisualvm;
 
 public class MyObject {
+	// modificare
 	private int id;
 
 	public int getId() {
