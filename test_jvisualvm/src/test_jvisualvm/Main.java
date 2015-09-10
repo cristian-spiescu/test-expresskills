@@ -9,10 +9,12 @@ public class Main {
 		// modificare din eclipse
 		int counter = 0;
 		List<MyObject> list = new ArrayList<>();
-		while (true) {
-			list.add(new MyObject(counter++));
-			System.out.println(counter);
-			Thread.sleep(100);
+		if (args == null) {
+			while (true) {
+				list.add(new MyObject(counter++));
+				System.out.println(counter);
+				Thread.sleep(100);
+			}
 		}
 		// editare din github
 
